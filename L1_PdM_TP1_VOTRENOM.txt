@@ -1,0 +1,73 @@
+2a. /home/arguez
+2b. /home
+
+5. ls $HOME
+	OU ls ~
+	PUIS ls -a ~
+
+6. mkdir mp
+
+7a. cd mp
+7b. ls -a
+cd ..
+
+7c. cd mp
+mkdir tp1
+cd tp1
+
+8. mkdir foo
+cd foo
+mkdir bar
+cd ..
+rm -R foo
+
+9a. Mousepad semble ne pas fonctionner sur ce PC.
+vi essai.txt
+9b. Le fichier essai.txt a été créé.
+
+10b. le processus Mouspad est toujours en cours d'execution.
+
+11. cat essai.txt
+
+Exercice 2 :
+
+1. wc : Affiche le décompte de lignes, de mots et d'octets pour chaque fichier
+       et le nombre total de lignes si plus d'un fichier est indiqué.
+sort : même chose que la commande cat, mais en triant ce qui arrive sur la sortie standard.
+uniq : affiche le contenu d'un fichier sur la sortie standard, mais en n'affichant qu'une seule fois chaque ligne (si plusieurs lignes identiques, on n'en affiche qu'une).
+
+2. pwd : 1 argument
+find : 7 arguments au maximum
+cp : entre 2 et 4 arguments
+grep : entre 3 et 4 arguments
+
+3. sort -r
+sort -R
+ls -s
+ls -s -h
+
+Exercice 3 :
+
+1. touch premier_fichier.txt
+
+3. mkdir tests
+unzip PdM_2223_TP1.zip
+
+Manipuler les fichiers :
+
+1. Affiche les lignes d'un fichier correspondant à un pattern donné (ex : les lignes commençant par une certaine suite de caractères)
+
+2. cd fichiers_perso
+grep -e 'A'
+
+wc -m -l proust.txt
+wc -m -l camus.txt
+
+1. tr veut dire truncate. la commande tr supprime des caractères ou remplace certains caractères par d'autres définis à l'appel de la commande.
+
+2a. tr ' ' '\n' proust.txt | sort > mots_proust.txt
+
+2b. uniq -c -u
+
+2c. tr -d [:punct:]
+ tr [:alpha:] [:lower:]

@@ -1,3 +1,4 @@
 # up8
 all my up8 files.
-it's shell and python only for now !
+
+Mainly Shell and Python, but there's also a bit of C in there

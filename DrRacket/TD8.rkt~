@@ -71,18 +71,3 @@
    (square size "solid" (color (random 255) (random 255) (random 255))) (circle (/ size 2) "solid" (color (random 255) (random 255) (random 255)))))
 (f 50)
 
-;exercice 5
-
-;exercice 6
-
-;exercice 7
-
-(define (cercle-alea nbrcercles rayonmax horizonmax verticalmax)
-  (when(equal? nbrcercles 0)
-     +0)
-  (underlay/xy (circle (random rayonmax) "solid" "black") (random horizonmax) verticalmax (cercle-alea (- nbrcercles 1) rayonmax horizonmax verticalmax))
-)
-
-; (cercle-alea 3 50 50 50)
-; rentre dans une boucle infinie, je ne sais pas pourquoi
-

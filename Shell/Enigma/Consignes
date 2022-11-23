@@ -1,0 +1,9 @@
+Bienvenue dans cette petite série d'énigmes !
+
+Pour commencer, obtenez le hash md5 de ce fichier Consignes grâce à la commande :
+
+'md5sum Consignes'
+
+et retrouvez ce hash dans l'un des fichiers du dossier aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+Bonne chance !

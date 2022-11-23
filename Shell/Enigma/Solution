@@ -1,0 +1,5 @@
+1. grep "[le-hash-md5]" * effectué dans le dossier aaaaaaaaaaaaaaaa amène à la 74e copie
+
+2. grep -c "pattern" * | grep "1$" donne le bon nombre d'occurences (11). Allons à la 11e copie !
+
+3. ls -sh indique que le répertoire aaaaaaaaaaaaaaaaa pèse 12,0Ko. Rendez-vous donc à la 12e copie.

@@ -78,11 +78,11 @@
 ;exercice 7
 
 (define (cercle-alea nbrcercles rayonmax horizonmax verticalmax)
-  (when(equal? nbrcercles 0)
-     +0)
-  (underlay/xy (circle (random rayonmax) "solid" "black") (random horizonmax) verticalmax (cercle-alea (- nbrcercles 1) rayonmax horizonmax verticalmax))
-)
+  (if(equal? nbrcercles 0)
+     empty-image
+  (underlay/xy (circle (random rayonmax) "outline" "black") (random horizonmax) verticalmax (cercle-alea (- nbrcercles 1) rayonmax horizonmax verticalmax))
+))
 
-; (cercle-alea 3 50 50 50)
+ (cercle-alea 6 50 20 20)
 ; rentre dans une boucle infinie, je ne sais pas pourquoi
 

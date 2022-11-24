@@ -1,0 +1,42 @@
+--- Exercice 1 ---
+
+1. $ git init
+
+2. "Dépôt Git vide initialisé dans /home/arguez/git/.git/"
+Le répertoire contient maintenant un dossier '.git'.
+
+3. Le dépôt est vide et n'a aucun commit.
+
+--- Exercice 2 ---
+
+1. La commande 'git status' signale un fichier non suivi main.c .
+
+2. 'git status' annonce les modifications apportées au répertoire courant qui seront validées ainsi que le type de modifications. En l'occurence, un nouveau fichier main.c .
+
+3. Git demande que l'on paramètre un nom et une adresse mail. (par défaut ils sont crées en se basant sur le username de la machine sur laquelle on travaille.).
+
+4. $ git config --global user.name "Ari Guez"
+$ git config --global user.email "ariguez2865@gmail.com"
+
+5. 'git status' renvoie 'rien à valider, la copie de travail est propre' : notre commit a été enregistré.
+
+6. Il contient deux fichiers non suivis.
+
+7. $ git add *.txt
+
+8. $ git commit -m "ajout des fichiers texte"
+
+9. Il contient un fichier non suivi 'a.out' .
+
+10. L'exécutable changera avec chaque recompliation du/des fichier.s source, il n'est donc pas intéressant de le sauvegarder. Par ailleurs, si on voulait retrouver une ancienne version de l'exécutable, il suffirait de recomplier un vieux fichier source.
+
+11. $ echo "*.out" > .gitignore
+
+12. $ git add .gitignore
+$ git commit -m "added .gitignore"
+
+--- Exercice 3 ---
+
+1. 'git status' signale deux modifications de fichiers non traquées.
+
+2. $ git diff

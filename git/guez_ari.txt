@@ -53,4 +53,25 @@ Le dépôt contient foo.txt dans la zone de validation.
 7. $ git reset foo.txt
 Le dépôt signale que foo.txt ne sera pas validé.
 
-8. 
+8.  $ git add --patch foo.txt
+$ s
+$ y
+$ n
+
+On nous signale que foo.txt est dans la zone de validation, mais également que foo.txt contient des changements non suivis.
+
+9. $ git commit -m "somewhat understood --patch option"
+
+10. $ git commit -a -m "completed feature request #13"
+
+--- Exercice 4 ---
+
+1. La commande git log liste tous les commits effectués dans le répertoire courant, les plus récents en premier. Pour chaque commit, elle affiche plusieurs informations : une suite de caractères qui servent à identifier le commit, l'auteur du commit (ainsi que son adresse mail), la date à laquelle le commit a été effectué (ainsi que le fuseau horaire GMT de l'endroit où le commit a été effectué) puis le commentaire du commit correspondant. La branche du déôt sur laquelle on travaille est aussi renseignée.
+
+2. $ git log --name-status
+$ git log --oneline
+$ git log --name-status --oneline
+
+3. $ git log -1
+
+4. 

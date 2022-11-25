@@ -51,4 +51,6 @@ $ git commit -m "added .gitignore"
 Le dépôt contient foo.txt dans la zone de validation.
 
 7. $ git reset foo.txt
+Le dépôt signale que foo.txt ne sera pas validé.
 
+8. 

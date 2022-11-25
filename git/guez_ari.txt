@@ -40,3 +40,15 @@ $ git commit -m "added .gitignore"
 1. 'git status' signale deux modifications de fichiers non traquées.
 
 2. $ git diff
+
+3. $ git diff --color-words
+
+4. Le dépôt contient un fichier dans la 'zone de validation' (main.c) et un fichier non suivi (foo.txt).
+
+5. $ git commit -m "traduction en français"
+
+6. $ git add foo.txt
+Le dépôt contient foo.txt dans la zone de validation.
+
+7. $ git reset foo.txt
+

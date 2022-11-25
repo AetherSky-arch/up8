@@ -74,4 +74,10 @@ $ git log --name-status --oneline
 
 3. $ git log -1
 
-4. 
+4. J'avoue que je n'ai absolument rien compis à la fenêtre qui s'est ouverte quand j'ai essayé git commit --amend, désolé
+
+5. $ git log
+
+6. Là non plus. Je crois que j'ai cassé quelque chose.
+
+7. Non vraiment les branches c'est.... voilà. 

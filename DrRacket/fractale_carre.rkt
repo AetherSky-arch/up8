@@ -32,4 +32,4 @@
 )
 
 
-(carre1 2 20 "black" "white")
+(carre1 3 20 "black" "white")

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<title>My Personal Page</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="index.css" />
+
+		<style>
+			/* Define the menu container styles */
+			#menu {
+				padding: 10px;
+				width: 200px;
+				height: 100%;
+				position: fixed;
+				left: -190px;
+				top: 0;
+				background-color: CornflowerBlue;
+				color: #fff;
+				transition: left 0.5s ease-out;
+			}
+
+			/* Define the menu container hover styles */
+			#menu:hover {
+				left: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="title">
+			<h1>Personal Page !</h1>
+			<p>Welcome to my personal page.</p>
+		</div>
+
+		<div id="menu">
+			<div id="icon_menu">
+				<img src="assets/icon_menu.png">
+			</div>
+			<h3>Menu</h3>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+		</div>
+
+		<script>
+			// Get the menu container element
+			var menu = document.getElementById("menu");
+
+			// Add a click event listener to the menu container
+			// to toggle the menu visibility when the user clicks on it
+			menu.addEventListener("click", function() {
+				if (menu.style.left === "0px") {
+					menu.style.left = "-190px";
+				} else {
+					menu.style.left = "0px";
+				}
+			});
+		</script>
+	</body>
+</HTML>

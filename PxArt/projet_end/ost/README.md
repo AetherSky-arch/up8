@@ -1,0 +1,1 @@
+ndt : je n'ai pas réussi à trouver l'instrument recherché qui m'aurait permis de faire de la musique dans le style 8-bit pour aller avec un jeu d'arcade, qui aurait peut-être mieux fonctionné que ces quelques boucles.

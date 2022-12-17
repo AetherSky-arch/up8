@@ -1,0 +1,6 @@
+Sprites faits sur LibreSprite et Aseprite.
+Le vaisseau du joueur est un recolor du vaisseau du jeu original Galaga.
+
+Effets sonores générés grâce à https://www.leshylabs.com/apps/sfMaker/.
+
+Musiques concues sur Beepbox.
